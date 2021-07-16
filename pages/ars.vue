@@ -1,12 +1,12 @@
 <template>
 	<div>
 		<input v-model="changer"  type="text" name="">
-		<div @click="changeName(changer)" class="text-white">change name</div>
+		<div @click="changeName(changer)" class="text-white">change name please</div>
 		<div class="text-white text-center w-full">hello {{ name }}</div>
 		<div class="text-white text-center w-full">{{ changer }}</div>
 
 		<div v-for="(person, index) in people" :key="index" class="flex text-white space-x-10">
-			<div>His name is {{ person.name }}</div>
+			<div>this is {{ person.name }}</div>
 			<div>Age is {{ person.age }}</div>
 		</div>
 
